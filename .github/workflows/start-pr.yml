@@ -1,0 +1,20 @@
+name: start-pr
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup dependencies
+        run: make setp
+
+      - name: Run tests
+        run: make test
+
+      - name: Run linter      
+        run: make lint
