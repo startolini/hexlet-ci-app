@@ -2,6 +2,8 @@
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
+[![start-pr](https://github.com/startolini/hexlet-ci-app/actions/workflows/start-pr.yml/badge.svg)](https://github.com/startolini/hexlet-ci-app/actions/workflows/start-pr.yml)
+
 ## System requirements
 
 * NodeJS >= 18
